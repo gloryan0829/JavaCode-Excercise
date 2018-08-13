@@ -1,4 +1,4 @@
-package pattern.strategy;
+package pattern.strategy.ex1;
 
 public class Axe implements Weapon {
 
