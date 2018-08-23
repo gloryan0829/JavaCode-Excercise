@@ -8,7 +8,7 @@ public class StreamEx1 {
     public static void main(String[] args) {
 
         IntStream.rangeClosed(1, 10).forEach( i -> System.out.println(i));
-        IntStream.iterate(1, i -> i + 1).forEach(i -> System.out.print(i + " "));
+        IntStream.iterate(1, i -> i + 1).limit(10).forEach(i -> System.out.print(i + " "));
 
 //        Stream.of(1,2,3,4,5).forEach(i -> System.out.print(i + " "));
 
